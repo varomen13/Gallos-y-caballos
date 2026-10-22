@@ -1,0 +1,46 @@
+[
+  {
+    "id": "azteca",
+    "nombre": "Azteca",
+    "busquedaWikidata": "Azteca horse",
+    "imagen": "Azteca horse",
+    "origen": "México",
+    "peso": "450–550 kg",
+    "altura": "150–165 cm",
+    "velocidad": "Hasta 60 km/h",
+    "descripcion": "Raza mexicana creada mediante cruces de caballos andaluces y Cuarto de Milla. Es apreciada por su versatilidad y presencia."
+  },
+  {
+    "id": "cuarto-de-milla",
+    "nombre": "Cuarto de Milla",
+    "busquedaWikidata": "American Quarter Horse",
+    "imagen": "American Quarter Horse",
+    "origen": "Estados Unidos",
+    "peso": "430–550 kg",
+    "altura": "145–163 cm",
+    "velocidad": "Hasta 70 km/h en distancias cortas",
+    "descripcion": "Caballo compacto y atlético, conocido por su rápida aceleración en trayectos cortos y su trabajo con ganado."
+  },
+  {
+    "id": "criollo",
+    "nombre": "Criollo",
+    "busquedaWikidata": "Criollo horse",
+    "imagen": "Criollo horse",
+    "origen": "América del Sur",
+    "peso": "400–500 kg",
+    "altura": "140–152 cm",
+    "velocidad": "Hasta 60 km/h",
+    "descripcion": "Caballo resistente y versátil, desarrollado en América del Sur y adaptado a largos recorridos y condiciones exigentes."
+  },
+  {
+    "id": "appaloosa",
+    "nombre": "Appaloosa",
+    "busquedaWikidata": "Appaloosa horse",
+    "imagen": "Appaloosa",
+    "origen": "Estados Unidos",
+    "peso": "430–570 kg",
+    "altura": "142–163 cm",
+    "velocidad": "Hasta 65 km/h",
+    "descripcion": "Raza reconocible por sus patrones moteados, desarrollada en el noroeste de Estados Unidos y valorada por su versatilidad."
+  }
+]
