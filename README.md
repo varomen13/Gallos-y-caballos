@@ -6,6 +6,8 @@ Sitio web escolar sobre el caballo en la cultura ranchera mexicana. Incluye nave
 
 Pendientes.
 
+El flujo Git Flow organiza el trabajo en `main`, `dev` y ramas `feature/*`; los cambios se integran primero en `dev`.
+
 ## Requisitos e instalación
 
 Se requiere Node.js y npm.
