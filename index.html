@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#2B2623" />
+    <meta
+      name="description"
+      content="Caballos, carreras parejeras y tradiciones rancheras de México."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Rye&display=swap"
+      rel="stylesheet"
+    />
+    <title>Caballos Rancheros | Tradición a caballo</title>
+    <script type="module" crossorigin src="/assets/index-Elsm6qGs.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-Dydg_K_D.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#inicio" aria-label="Caballos Rancheros, inicio">
+        <span class="brand-mark" aria-hidden="true">CR</span>
+        <span>Caballos <strong>Rancheros</strong></span>
+      </a>
+      <button class="menu-toggle" type="button" aria-label="Abrir menú" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="main-nav" aria-label="Navegación principal">
+        <a href="#inicio" class="nav-link is-active">Inicio</a>
+        <a href="#razas" class="nav-link">Razas</a>
+        <a href="#tradiciones" class="nav-link">Tradiciones</a>
+        <a href="#clima" class="nav-link">Clima</a>
+        <a href="#registro" class="nav-link nav-register">Registro</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="page-section is-visible" id="inicio" aria-labelledby="home-title">
+        <div class="hero">
+          <div class="hero-copy">
+            <p class="eyebrow">Herencia, campo y libertad</p>
+            <h1 id="home-title">A caballo,<br /><span>por nuestras raíces</span></h1>
+            <p class="hero-lead">
+              Un recorrido por los caballos y las tradiciones que forman parte del corazón ranchero de México.
+            </p>
+            <div class="button-row">
+              <a class="button button-primary" href="#razas">Conoce las razas</a>
+              <a class="button button-outline" href="#tradiciones">Vive la tradición</a>
+            </div>
+          </div>
+          <div class="hero-art" id="hero-image" aria-label="Fotografía de un caballo charro"></div>
+          <div class="hero-stamp" aria-hidden="true"><span>Desde</span><strong>1519</strong><span>en México</span></div>
+        </div>
+
+        <div class="content-wrap">
+          <div class="section-heading">
+            <p class="eyebrow">Sabías que...</p>
+            <h2>Historias que cabalgan</h2>
+            <p>Pequeños datos para mirar con otros ojos la vida del caballo en el campo mexicano.</p>
+          </div>
+          <div class="fact-grid">
+            <article class="fact-card">
+              <span class="fact-number">01</span>
+              <h3>Una llegada que cambió el paisaje</h3>
+              <p>Los caballos llegaron al continente con las expediciones españolas del siglo XVI y pronto se integraron a la vida rural.</p>
+            </article>
+            <article class="fact-card">
+              <span class="fact-number">02</span>
+              <h3>Velocidad en pareja</h3>
+              <p>Las carreras parejeras enfrentan a dos caballos en trayectos rectos y cortos, con gran emoción en cada salida.</p>
+            </article>
+            <article class="fact-card">
+              <span class="fact-number">03</span>
+              <h3>Un deporte nacional</h3>
+              <p>La charrería reúne destreza ecuestre, vestimenta tradicional y suertes que se practican en lienzos charros.</p>
+            </article>
+          </div>
+          <aside class="history-note">
+            <span class="history-icon" aria-hidden="true">✦</span>
+            <div>
+              <h3>De las expediciones al rancho</h3>
+              <p>Tras la llegada de los españoles en el siglo XVI, los caballos se reprodujeron y difundieron por el territorio. Con el tiempo, su trabajo en el campo dio forma a prácticas ecuestres propias de distintas regiones.</p>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <section class="page-section" id="razas" aria-labelledby="breeds-title">
+        <div class="page-banner">
+          <p class="eyebrow">Conoce a sus protagonistas</p>
+          <h1 id="breeds-title">Razas de caballo</h1>
+          <p>Cuatro razas con historias, características y habilidades distintas.</p>
+        </div>
+        <div class="content-wrap">
+          <label class="search-field">
+            <span class="sr-only">Buscar raza</span>
+            <span aria-hidden="true">⌕</span>
+            <input id="breed-search" type="search" placeholder="Busca por nombre de raza..." autocomplete="off" />
+          </label>
+          <p id="wikidata-notice" class="api-notice" role="status" hidden></p>
+          <div id="breed-grid" class="breed-grid" aria-live="polite">
+            <p class="loading-state">Consultando datos de las razas...</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="page-section" id="tradiciones" aria-labelledby="traditions-title">
+        <div class="page-banner">
+          <p class="eyebrow">Orgullo de nuestra tierra</p>
+          <h1 id="traditions-title">Carreras y charrería</h1>
+          <p>La relación entre el caballo, la celebración y la vida de rancho.</p>
+        </div>
+        <div class="content-wrap">
+          <article class="tradition-intro">
+            <div>
+              <p class="eyebrow">Dos caballos, una salida</p>
+              <h2>¿Qué son las carreras parejeras?</h2>
+              <p>Son competencias en las que dos caballos corren lado a lado sobre una pista recta. En muchas comunidades se acuerda una distancia corta, normalmente de 200 a 400 metros, y el resultado se decide al cruzar la meta.</p>
+              <p>Se organizan en distintas regiones, con especial arraigo en ranchos del norte del país y de Jalisco. La convivencia, las apuestas entre participantes y la emoción de la salida forman parte de la tradición; siempre deben priorizarse el bienestar animal y las normas locales.</p>
+            </div>
+            <div class="race-facts">
+              <div><strong>200–400 m</strong><span>distancias habituales</span></div>
+              <div><strong>En pareja</strong><span>salida y meta compartidas</span></div>
+              <div><strong>Tradición</strong><span>ranchos y fiestas regionales</span></div>
+            </div>
+          </article>
+
+          <div class="section-heading align-left">
+            <p class="eyebrow">Fiesta y destreza</p>
+            <h2>Una cultura que se celebra</h2>
+          </div>
+          <div id="gallery-grid" class="gallery-grid"></div>
+          <article class="jaripeo-note">
+            <h3>Charrería y jaripeo</h3>
+            <p>La charrería es una tradición ecuestre mexicana con distintas suertes ejecutadas por charros y escaramuzas. El jaripeo forma parte de fiestas populares en muchas regiones y tiene expresiones locales diversas. Ambos se viven en ferias y celebraciones, con prácticas que deben procurar el cuidado y la seguridad de personas y animales.</p>
+          </article>
+
+          <section class="joan-section" aria-labelledby="joan-title">
+            <div class="section-heading">
+              <p class="eyebrow">Homenaje ranchero</p>
+              <h2 id="joan-title">Joan Sebastián, el Rey del Jaripeo</h2>
+              <p>Un espacio dedicado a su vínculo con los caballos, el jaripeo y la cultura ranchera.</p>
+            </div>
+            <article class="joan-biography">
+              <h3>Biografía</h3>
+              <p id="joan-bio-status" class="api-notice" role="status">Consultando el resumen de Wikipedia...</p>
+              <p id="joan-bio-extract" class="joan-bio-extract"></p>
+              <a id="joan-wikipedia-link" class="text-link" hidden target="_blank" rel="noopener noreferrer">Leer más en Wikipedia</a>
+            </article>
+
+            <div class="section-heading align-left joan-subheading">
+              <p class="eyebrow">Retratos y tradición</p>
+              <h2>Galería</h2>
+            </div>
+            <div id="joan-gallery" class="joan-gallery" aria-live="polite"></div>
+
+            <div class="section-heading align-left joan-subheading">
+              <p class="eyebrow">Escucha fragmentos</p>
+              <h2>Música</h2>
+            </div>
+            <p class="music-disclaimer">Fragmentos de 30 s cortesía de iTunes</p>
+            <p id="music-status" class="api-notice" role="status">Consultando canciones...</p>
+            <div id="music-grid" class="music-grid"></div>
+          </section>
+        </div>
+      </section>
+
+      <section class="page-section" id="clima" aria-labelledby="weather-title">
+        <div class="page-banner">
+          <p class="eyebrow">El campo también marca el ritmo</p>
+          <h1 id="weather-title">Clima en los ranchos</h1>
+          <p>Consulta las condiciones actuales de cinco ciudades ecuestres de México.</p>
+        </div>
+        <div class="content-wrap">
+          <div class="weather-toolbar">
+            <p id="weather-status" class="api-notice" role="status">Cargando el clima actual...</p>
+            <button id="weather-refresh" class="button button-small button-outline" type="button">Actualizar</button>
+          </div>
+          <div id="weather-grid" class="weather-grid"></div>
+          <p class="weather-disclaimer">El pronóstico cambia durante el día. Antes de una carrera, verifica el estado de la pista: el calor aumenta el riesgo de deshidratación y una superficie mojada puede ser resbaladiza.</p>
+        </div>
+      </section>
+
+      <section class="page-section" id="registro" aria-labelledby="register-title">
+        <div class="page-banner">
+          <p class="eyebrow">Forma parte de la comunidad</p>
+          <h1 id="register-title">Registro de usuario</h1>
+          <p>Déjanos tus datos para darte la bienvenida.</p>
+        </div>
+        <div class="content-wrap register-wrap">
+          <form id="register-form" class="register-card" novalidate>
+            <div class="form-field">
+              <label for="name">Nombre completo</label>
+              <input id="name" name="name" type="text" autocomplete="name" required aria-describedby="name-error" />
+              <small class="field-error" id="name-error"></small>
+            </div>
+            <div class="form-field">
+              <label for="email">Correo electrónico</label>
+              <input id="email" name="email" type="email" autocomplete="email" required aria-describedby="email-error" />
+              <small class="field-error" id="email-error"></small>
+            </div>
+            <div class="form-field">
+              <label for="phone">Teléfono</label>
+              <input id="phone" name="phone" type="tel" inputmode="numeric" autocomplete="tel" maxlength="10" required aria-describedby="phone-error" />
+              <small class="field-error" id="phone-error"></small>
+            </div>
+            <div class="form-field">
+              <label for="password">Contraseña</label>
+              <input id="password" name="password" type="password" autocomplete="new-password" required aria-describedby="password-error password-strength" />
+              <div class="strength-track" aria-hidden="true"><span id="strength-bar"></span></div>
+              <small id="password-strength" class="strength-label">Fuerza de contraseña: sin evaluar</small>
+              <small class="field-error" id="password-error"></small>
+            </div>
+            <div class="form-field">
+              <label for="confirm-password">Confirmar contraseña</label>
+              <input id="confirm-password" name="confirmPassword" type="password" autocomplete="new-password" required aria-describedby="confirm-password-error" />
+              <small class="field-error" id="confirm-password-error"></small>
+            </div>
+            <div class="form-field terms-field">
+              <label class="checkbox-label" for="terms">
+                <input id="terms" name="terms" type="checkbox" required aria-describedby="terms-error" />
+                <span>Acepto los términos de uso y el aviso de privacidad.</span>
+              </label>
+              <small class="field-error" id="terms-error"></small>
+            </div>
+            <button class="button button-primary submit-button" type="submit">Crear cuenta</button>
+            <p id="register-message" class="form-message" role="status" aria-live="polite"></p>
+            <p class="privacy-note">Tu contraseña se valida en este dispositivo y no se guarda.</p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="brand footer-brand" href="#inicio"><span class="brand-mark" aria-hidden="true">CR</span><span>Caballos <strong>Rancheros</strong></span></a>
+      <p>Datos: Wikidata. Clima: OpenWeatherMap. Fotos: Wikimedia Commons (autor y licencia indicados en cada foto).</p>
+      <p>Biografía: Wikipedia. Música: iTunes Search API.</p>
+      <small>Proyecto escolar · Unidad 3 · Seguridad, web services y APIs</small>
+    </footer>
+
+  </body>
+</html>
